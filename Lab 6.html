@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin-bottom: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        .about-me {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .about-me img {
+            max-width: 400px;
+            border-radius: 50%;
+        }
+        .about-me-content {
+            max-width: 60%;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#skills">About Me</a></li>
+                <li><a href="#projects">Blog posts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container about-me" id="about">
+        <div class="about-me-content">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm Prasantha Senarathna, a passionate [Your Profession, e.g., web developer, designer] with a love for creating clean and efficient designs. I have a strong background in [Your Skills or Field], and I am constantly learning new technologies to improve my skill set.
+            </p>
+            <p>
+                When I'm not coding, I enjoy [Your Hobbies, e.g., hiking, photography], and exploring new ideas to incorporate into my projects. I'm always open to collaborating on exciting projects and building something meaningful.
+                <h4><ul>Hobbies</ul></h4>
+                <li>reading</li>
+                <li>listnening to music</li>
+            </p>
+        </div>
+        <img src="download.jpg" alt="Profile Picture">
+    </section>
+
+    <section class="container" id="skills">
+        <h2>Blog posts</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Angular, Vue.js</li>
+            <li>Node.js, Express</li>
+            <li>Python, Django</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section class="container" id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="#">Project 1</a> - A brief description of the project.</li>
+            <li><a href="#">Project 2</a> - A brief description of the project.</li>
+            <li><a href="#">Project 3</a> - A brief description of the project.</li>
+        </ul>
+    </section>
+
+    <section class="container" id="contact">
+        <h2>Contact</h2>
+        <p>Prasantha Senarathna</p>
+        <p>Feel free to reach out to me at <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
